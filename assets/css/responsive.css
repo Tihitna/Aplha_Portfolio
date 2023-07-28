@@ -1,0 +1,245 @@
+@media(max-width:650px){
+    .nav{
+        padding: 0 10px;
+    }
+    .menu{
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+    .menu ul{
+        gap:1rem;
+    }
+    .logo{
+        flex-direction: row;
+    }
+    .headding-content{
+        padding: 20px;
+    }
+    .headding-content img{
+        width: 100px;
+    }
+    .headding-content h1{
+        font-size: 28px;
+        padding: 0 20px;
+    }
+    .headding-content p{
+        padding: 0 20px;
+    }
+    .btns .span-1, .btns .span-2{
+        font-size: 12px;
+        border-radius: 50px;
+        padding: 10px;
+    }
+    .brands-content{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .brands-content h4{
+        text-align: center;
+    }
+    .brands-img{
+        display: grid;
+        grid-template-columns: 100px 100px;
+        gap: 1rem;
+        margin-left: 20px;
+    }
+    .brands-img img{
+        width: 100px;
+    }
+    .brands-img > *:nth-child(2){
+        width:70px;
+    }
+    .footer{
+        padding: 0;
+    }
+    .footer-content{
+        padding:0 ;
+        display: inline-block;
+        text-align: center;
+    }
+    .footer h1{
+        font-size: 20px;
+        padding: 0 20px;
+    }
+    .hr{
+        width: 30px; 
+  margin-left: 45px;
+  position: absolute;
+  margin-top: 10px;
+    }
+    .footer-btn{
+        margin-top: 30px;
+        margin-left: -40px;
+    }
+    .footer-btn .span-1, .footer-btn .span-2{
+        font-size: 10px;
+    padding: 10px 15px;
+    
+    }
+    .footer-heading{
+        margin-left: -50px;
+    }
+    .headding-services{
+        padding: 10px;
+    }
+    .headding-services h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .web{
+        padding: 0 10px;
+        margin-bottom: 30px;
+    }
+    .web-content{
+        display: inline-block;
+    }
+    .web-detail{
+        margin-top: 0;
+    }
+    .web-detail h2{
+        font-size: 28px;
+    }
+    .web-content img{
+        display: none;
+    }
+    .service-footer{
+        margin: 0;
+        padding: 0 10px;
+    }
+    .footer-nav ul{
+        font-size: 12px;
+        gap:1rem;
+    }
+    .footer-nav{
+        grid-template-columns: 0.5fr 1fr;
+    }
+    .footer-nav p{
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .designer-links p{
+        font-size: 12px;
+    }
+    .links img{
+        width: 11px;
+        padding: 8px;
+    }
+    .blog-headding h1{
+        text-align: center;
+        font-size: 32px;
+        padding: 30px 10px;
+        padding-bottom: 5px;
+    }
+    .blog-headding p{
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .blog-headding img{
+        height: 200px;
+    }
+    .overview{
+        padding: 30px 10px;
+        padding-bottom: 10px;
+    }
+    .overview p, .blog-1 p, .blog-2 p{
+        font-size: 16px;
+    }
+    .blog-1, .blog-2{
+        padding: 0 10px;
+    }
+    .blog-1 img, .blog-2 img{
+        width: 350px;
+    }
+    .articles{
+        padding: 30px 10px;
+        padding-bottom: 10px;
+    }
+    .articles-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .articles-content img{
+        width: 250px;
+    }
+    .articles-content span{
+        font-size: 11px;
+        padding: 5px 9px; 
+    }
+    .articles-content p{
+        font-size: 16px;
+    }
+    .article-1, .article-2{
+        margin: 0 auto;
+        padding: 15px;
+        width: 250px;
+    }
+    .in-touch, .faq{
+        padding: 30px 10px;
+    }
+    .in-touch-content{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+    }
+    .info{
+        text-align: center;
+    }
+    .info h1, .faq-contact h1{
+        font-size: 34px;
+    }
+    .faq{
+        padding: 0px 10px;
+        margin-bottom: 100px;
+    }
+    .faq-content{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    .faq-questions{
+        margin-top: 50px;
+    }
+    .faq-questions select{
+        width: 310px;
+        padding: 20px 10px;
+        border: none;
+        border-bottom: 1px solid rgb(172, 172, 172);
+        background-color: transparent;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .contact{
+        width: 120px;
+        padding: 10px 15px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .pnf{
+        padding: 100px 15px;
+        text-align: center;
+    }
+    .pnf-content img{
+        width: 300px;    
+    }
+    .pnf-text h1{
+        display: none;
+    }
+    .pnf-text p{
+        font-weight: 700;
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .pnf-content{
+        flex-direction: column;
+    }
+    .pnf-text span{
+        width: 110px;
+        border-radius: 50px;
+        padding: 10px 12px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
