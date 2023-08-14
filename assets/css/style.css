@@ -736,3 +736,7 @@ li{
 .last-img img{
     width: 350px;
 }
+.name, .email, .budget, .project{
+    display: flex;
+    flex-direction: column;
+  }
